@@ -28,5 +28,5 @@ plugins:
   - jekyll-sitemap
 
 # Custom variables
-#owner : "E-Tech I&C"
-#year : "2019"
+owner : "E-Tech I&C"
+year : "2019"
