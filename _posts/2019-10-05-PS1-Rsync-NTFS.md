@@ -4,7 +4,7 @@ published: true
 ---   
 
 
-# PS1 Bash Colorful Prompt    
+## PS1 Bash Colorful Prompt    
 `$ vi ~/.bash_profile`    
 
 ```rc
@@ -13,7 +13,7 @@ export PS1
 ```   
 
 
-# Rsync Windows File System     
+## Rsync Windows File System     
 ```rc
 yum install cifs-utils
 mount -t cifs -o user="사용자명" //10.0.0.3/fileserver /mnt
@@ -31,6 +31,8 @@ rsync -avrh --delete --progress --exclude 'mnt/System Volume Information' /mnt /
 date >> /root/Mgmt/fileserver_sync.log
 echo -e "=========================================================\n" >> /root/Mgmt/fileserver_sync.log
 ```  
+
+addition `crontab -e`  
 
 
 
